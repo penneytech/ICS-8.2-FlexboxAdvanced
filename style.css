@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#main {
+    background-color: orange;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top {
+    background-color: yellow;
+    height: 60px;
+    display: flex;
+}
+
+#topleft {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#topright {
+    background-color: purple;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#middle {
+    background-color: green;
+    flex: 1;
+}
+
+#bottom {
+    background-color: blue;
+    height: 120px;
+}
+
+.menuitem {
+    padding: 10px;
+    font-size: 17px;
+}
+
+#menuicon {
+    height: 40px
+}
+
+#signin {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+   color: white;
+    border-radius: 30px;
+    background-color: rgb(0, 53, 177);
+}
